@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Report a security problem
+    url: https://ant0.link/.well-known/security.txt
+    about: Report privately. Don't open a public issue.
+  - name: Account, plan or billing
+    url: https://ant0.link/contact
+    about: Questions about your Ant0 account go to the contact page.
+  - name: Documentation
+    url: https://docs.ant0.link
+    about: Guides for the app, the API, the CLI, MCP and the SDKs.

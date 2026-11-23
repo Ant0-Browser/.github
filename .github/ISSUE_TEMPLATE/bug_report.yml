@@ -1,0 +1,55 @@
+name: Bug report
+description: Something in this repository doesn't work as described.
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Security problems go to SECURITY.md, not here. Don't paste tokens, API keys, cookies or proxy passwords.
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened
+      description: What you did, what you expected, and what happened instead.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. …
+        2. …
+    validations:
+      required: true
+  - type: input
+    id: ant0
+    attributes:
+      label: Ant0 app version
+      description: In the app, under Settings → About.
+      placeholder: "0.3.21"
+    validations:
+      required: true
+  - type: input
+    id: package
+    attributes:
+      label: Package or tool version
+      placeholder: "ant0-browser 0.2.0"
+  - type: dropdown
+    id: os
+    attributes:
+      label: System
+      options:
+        - Windows 11
+        - Windows 10
+        - Ubuntu 24.04 or newer
+        - Debian 13 or newer
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs or output
+      description: Remove tokens, keys, IPs and personal data first.
+      render: shell
