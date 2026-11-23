@@ -47,7 +47,7 @@ More in the [docs](https://docs.ant0.link): [API](https://docs.ant0.link/api) ·
 | ant0-sdk (coming soon) | Node and Python SDKs | BSD-3-Clause |
 | [ant0-mcp](https://github.com/Ant0-Browser/ant0-mcp) | The MCP server for AI agents | BSD-3-Clause |
 | ant0-cli (coming soon) | The `ant0` command line | BSD-3-Clause |
-| ant0-examples (coming soon) | Recipes for common jobs | MIT-0 |
+| [ant0-examples](https://github.com/Ant0-Browser/ant0-examples) | Recipes for common jobs | MIT-0 |
 
 ## What's open source
 
